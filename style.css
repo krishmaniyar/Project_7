@@ -1,0 +1,116 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+}
+
+.sidebar
+{
+    display: grid;
+    grid-template-rows: repeat(12,40px);
+    background-color: rgb(136, 163, 214);
+    color: white;
+}
+
+.dash
+{
+    padding: 2%;
+}
+
+.dash > img
+{
+    height: 20px;
+    margin-right: 14px;
+    margin-left: 7px;
+    margin-top: 4px;
+    background-color: white;
+}
+
+.dash > h1
+{
+    display: inline;
+    margin: 0%;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.header
+{
+    background-color: beige;
+    width: 92%;
+    height: 18%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 18px;
+}
+
+#textarea
+{
+    width: 55%;
+    display: inline-block;
+    margin: 0%;
+    border-radius: 8px;
+    border: 0px;
+    background-color: aliceblue;
+    height: 20%;
+    margin-left: 4%;
+}
+
+.header > img
+{
+    height:20px;
+    position: fixed;
+    top: 3%;
+}
+
+.container1
+{
+    padding-top: 2%;
+    display: flex;
+}
+
+#profile_pic
+{
+    border-radius: 100%;
+}
+
+p,h2
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.Details
+{
+    flex: 12;
+}
+
+.image
+{
+    flex: 1;
+}
+
+.buttons
+{
+    flex: 2;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons > button
+{
+    border: 0px;
+    border-radius: 20px;
+    padding: 8%;
+    width: 70%;
+    background-color:  rgb(136, 163, 214);
+}
