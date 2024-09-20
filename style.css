@@ -68,7 +68,9 @@ body
 {
     width: 85%;
     border-radius: 10px;
-    background-color: aliceblue;
+    height: 20px;
+    background-color: rgb(171, 203, 231);
+    border: 0px;
 }
 
 .profile_pic > img
